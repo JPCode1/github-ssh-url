@@ -31,7 +31,8 @@
   ],
   "dependencies": {
     "concat-stream": "^1.5.0",
-    "help-version": "^1.0.0"
+    "help-version": "^1.0.0",
+    "parse-github-url": "^0.1.1"
   },
   "devDependencies": {
     "tape": "^4.0.0"

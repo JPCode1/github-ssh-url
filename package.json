@@ -4,11 +4,13 @@
   "description": "Make GitHub SSH URL from HTTPS URL or username/repository",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
+  "bin": "cli.js",
   "scripts": {
     "test": "tape test/*.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "homepage": "https://github.com/eush77/github-ssh-url",
   "repository": "eush77/github-ssh-url",
@@ -28,6 +30,7 @@
     "git"
   ],
   "dependencies": {
+    "concat-stream": "^1.5.0",
     "help-version": "^1.0.0"
   },
   "devDependencies": {

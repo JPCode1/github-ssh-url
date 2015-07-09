@@ -37,6 +37,14 @@ githubSshUrl(sshUrl), sshUrl, 'SSH url');
 
 Returns SSH URL.
 
+## CLI
+
+#### `github-ssh-url [URL]`
+
+With no `URL`, reads URL from the standard input.
+
+Prints SSH URL.
+
 ## Install
 
 ```
